@@ -28,3 +28,9 @@
 [submodule "bundle/vim-Conque"]
 	path = bundle/vim-Conque
 	url = https://github.com/vim-scripts/Conque-Shell.git
+[submodule "bundle/vim-zoomwin"]
+	path = bundle/vim-zoomwin
+	url = https://github.com/vim-scripts/ZoomWin.git
+[submodule "bundle/vim-minbufexpl"]
+	path = bundle/vim-minbufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
