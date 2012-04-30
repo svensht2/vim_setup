@@ -34,3 +34,18 @@
 [submodule "bundle/vim-minbufexpl"]
 	path = bundle/vim-minbufexpl
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-bufkill"]
+	path = bundle/vim-bufkill
+	url = https://github.com/vim-scripts/bufkill.vim.git
+[submodule "bundle/vim-xptemplate"]
+	path = bundle/vim-xptemplate
+	url = https://github.com/drmingdrmer/xptemplate.git
+[submodule "bundle/vim-supertab"]
+	path = bundle/vim-supertab
+	url = https://github.com/ervandew/supertab.git
