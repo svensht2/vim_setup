@@ -21,8 +21,8 @@ function! BinaryToHex(binvalue, eolchar, commchar)
 	return printf("0x%X%s %s %s", substitute(string(dec), '..$', "", ""), a:eolchar, a:commchar, a:binvalue)
 endfunction
 
-XPTvar $author       Derek Wyatt
-XPTvar $email        derek@derekwyatt.org
+XPTvar $author       Simion Venshtain
+XPTvar $email        svensht2@gmail.com
 
 " if () ** {
 " else ** {
@@ -76,3 +76,14 @@ XPT ' wrap=phrase hint='...'
 XPT bin2hex wrap=binary hint=Convers\ binary\ to\ Hex
 XSET binary|post=BinaryToHex(V(), $EOLChar, $CommChar)
 `binary^
+
+XPT for wrap " for (..;..;++)
+for`$SPcmd^(`$SParg^`i^`$SPop^=`$SPop^`0^; `i^`$SPop^<`$SPop^`len^; ++`i^`$SParg^)`$BRloop^{
+    `cursor^
+}
+
+
+XPT forr wrap " for (..;..;--)
+for`$SPcmd^(`$SParg^`i^`$SPop^=`$SPop^`n^; `i^`$SPop^>`=$SPop`0^; --`i^`$SParg^)`$BRloop^{
+    `cursor^
+}
