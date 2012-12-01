@@ -1,9 +1,6 @@
 [submodule "bundle/vim-clang_complete"]
 	path = bundle/vim-clang_complete
 	url = https://github.com/Rip-Rip/clang_complete.git
-[submodule "bundle/vim-cvim"]
-	path = bundle/vim-cvim
-	url = https://github.com/HenningM/cvim-pathogen.git
 [submodule "bundle/vim-taglist"]
 	path = bundle/vim-taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
@@ -28,9 +25,6 @@
 [submodule "bundle/vim-zoomwin"]
 	path = bundle/vim-zoomwin
 	url = https://github.com/vim-scripts/ZoomWin.git
-[submodule "bundle/vim-minbufexpl"]
-	path = bundle/vim-minbufexpl
-	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
