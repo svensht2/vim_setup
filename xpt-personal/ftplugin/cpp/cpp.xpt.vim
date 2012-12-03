@@ -191,6 +191,12 @@ typedef std::tr1::shared_ptr<const `type^> `type^CPtr;
 
 
 XPT main hint=C++\ main\ including\ #includes
+//
+// `getNamespaceFilename()^
+//
+// Copyright (c) `year()^ Personify Inc.
+//
+
 #include <map>
 #include <vector>
 #include <string>
@@ -216,14 +222,17 @@ XPT inits hint=Initializer\ list\ for\ strings
 { "`s^"`...^, "`s^"`...^ }
 
 XPT m hint=Member\ variable
-`int^ m_`name^;
+`int^ m`name^;
 
 XPT imp hint=specific\ C++\ implementation\ file
-//
-// `getNamespaceFilename()^
-//
-// Copyright (c) `year()^ Research In Motion
-//
+/**
+ * @file `getNamespaceFilename()^
+ * 
+ * Copyright (c) `year()^ Personify Inc.
+ *
+ * @brief
+ *
+ */
 
 #include "`getHeaderForCurrentSourceFile()^"
 
@@ -232,13 +241,42 @@ XPT imp hint=specific\ C++\ implementation\ file
 `returnSkeletonsFromPrototypes()^`cursor^
 `insertNamespaceEnd()^
 
+XPT sh hint=simple\ C++\ header\ file
+/**
+ * @file `getNamespaceFilename()^
+ * 
+ * Copyright (c) `year()^ Personify Inc.
+ *
+ * @brief
+ *
+ */
+
+#ifndef `getNamespaceFilenameDefine()^
+#define `getNamespaceFilenameDefine()^
+
+`cursor^
+
+#endif /* `getNamespaceFilenameDefine()^ */
+
+XPT cr hint=specific\ C++\ header\ file
+/**
+ * @file `getNamespaceFilename()^
+ * 
+ * Copyright (c) `year()^ Personify Inc.
+ *
+ * @brief
+ *
+ */
 
 XPT h hint=specific\ C++\ header\ file
-//
-// `getNamespaceFilename()^
-//
-// Copyright (c) `year()^ Research In Motion
-//
+/**
+ * @file `getNamespaceFilename()^
+ * 
+ * Copyright (c) `year()^ Personify Inc.
+ *
+ * @brief
+ *
+ */
 
 #ifndef `getNamespaceFilenameDefine()^
 #define `getNamespaceFilenameDefine()^
@@ -466,3 +504,12 @@ XPT funh hint=function\ declaration
 `int^ `class^`name^(`param^`...^, `param^`...^)` const^;
 
 
+XPT fc
+/**
+ * @brief
+ *     `cursor^
+ * @note
+ *
+ * @return
+ *
+ */
